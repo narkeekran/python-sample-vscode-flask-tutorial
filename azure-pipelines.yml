@@ -46,7 +46,7 @@ steps:
     verbose: # (no value); this input is optional
 
 
-  - task: AzureRMWebAppDeployment@4
+- task: AzureRMWebAppDeployment@4
   displayName: Azure App Service Deploy
   inputs:
     appType: webAppLinux
